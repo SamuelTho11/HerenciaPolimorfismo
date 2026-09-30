@@ -6,18 +6,22 @@ package com.poo.herenciapolimorfismo.modelo;
 
 /**
  *
- * @author taidy
+ * @author Samuel
  */
-public class Gato extends Animal {
-
-    public Gato(String nombre) {
+public class Pez extends Animal {
+    
+    public Pez(String nombre) {
         super(nombre);
     }
-       public Gato() {
-        super("Garfield");
+    
+    public Pez(){
+        super("Dory");
     }
-  @Override
-  public void hacerSonido() {
-    System.out.println(super.getNombre()+ " hace Miau miau!");
-  }
+
+    @Override
+    public void hacerSonido() {
+        System.out.println(super.getNombre() + " Glu glu glu...");
+    }
+    
+    
 }

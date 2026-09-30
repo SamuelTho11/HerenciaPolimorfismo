@@ -10,7 +10,7 @@ package com.poo.herenciapolimorfismo.modelo;
  */
 public class Animal {
     
-    private String nombre;
+    String nombre;
 
     public String getNombre() {
         return nombre;
