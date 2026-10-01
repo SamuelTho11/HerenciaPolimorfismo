@@ -34,7 +34,7 @@ public class Pajaro extends Animal {
 
     @Override
     public void hacerSonido() {
-        System.out.println(super.getNombre() + " Pio pio pio"); 
+        System.out.println(super.getNombre() + " hace Pio pio pio"); 
     }
     
 }

@@ -30,7 +30,7 @@ public class Pez extends Animal {
     
     public void nadar(){
         profundidad+=10;
-        System.out.println(super.getNombre()+" Profundidad actual: "+profundidad);
+        System.out.println(super.getNombre()+" profundidad actual: "+profundidad);
     }
 
     public void comer(int granulos) {
@@ -39,8 +39,6 @@ public class Pez extends Animal {
 
     @Override
     public void hacerSonido() {
-        System.out.println(super.getNombre() + " Glu glu glu...");
+        System.out.println(super.getNombre() + " hace Glu glu glu...");
     }
-    
-    
 }

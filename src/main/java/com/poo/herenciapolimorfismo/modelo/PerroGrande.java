@@ -30,7 +30,7 @@ public class PerroGrande extends Perro {
 
     @Override
     public void hacerSonido() {
-        System.out.println(super.getNombre()+ " GUAU!"); 
+        System.out.println(super.getNombre()+ " hace GUAU!"); 
     }
     
 }

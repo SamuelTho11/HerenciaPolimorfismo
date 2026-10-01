@@ -37,7 +37,7 @@ Animal[] animales = {
   new Animal("Piolin"),
   new Pez("Dory"),
   new Pajaro("Donald"),
-  new PerroGrande("Clifford", 23, "Labrador", 25)
+  new PerroGrande("Clifford", 8, "Labrador", 25)
 };
 
 for (Animal animal : animales) {
